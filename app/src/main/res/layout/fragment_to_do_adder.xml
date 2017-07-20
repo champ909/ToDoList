@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:weightSum="1.1"
+    tools:context=".AddToDoFragment">
+
+    <!-- given background color over here and added spinner to select category when adding todoAPP -->
+
+    <EditText
+        android:id="@+id/enterItem"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".1"
+        android:hint="@string/enterItem"/>
+
+    <Spinner
+        android:id="@+id/foodSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".1"
+        android:entries="@array/food_arrays"
+        android:prompt="@string/food" />
+
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:calendarViewShown="false"
+        android:layout_weight=".8" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".1"
+        android:text="@string/addButton" />
+
+
+
+</LinearLayout>

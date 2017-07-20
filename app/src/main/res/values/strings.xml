@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="food">Select a Food from list</string>
+    <string name="addItemToView">Add New Item</string>
+    <string name="toDoDescription">To Do Description</string>
+    <string name="toDoCategory">To Do Category</string>
+    <string name="dueDate"> 08-11-2017</string>
+    <string name="enterItem"> Enter Item</string>
+    <string name="addButton"> Button</string>
+    <!-- added category item in string array that used by spinner and oncreateoption method-->
+
+        <string-array name="food_arrays">
+            <item>Chinese</item>
+            <item>Indian</item>
+            <item>Mexican</item>
+            <item>Korean</item>
+        </string-array>
+
+    <string-array name="foodCategory_arrays">
+        <item>All</item>
+        <item>Chinese</item>
+        <item>Indian</item>
+        <item>Mexican</item>
+        <item>Korean</item>
+    </string-array>
+</resources>

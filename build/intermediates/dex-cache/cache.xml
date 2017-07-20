@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\static\.android\build-cache\4c4db53fafe08480c4427e001d19cd7b9009703d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="536228b2496030d983d01856aa56b4d71b57d0db">
+        <dex dex="E:\GIT REPO\ToDoList\Android-Class-Examples\ToDoList\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d7cb9ab03f24a57613660cbf3e983c638f7752ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GIT REPO\ToDoList\Android-Class-Examples\ToDoList\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\GIT REPO\ToDoList\Android-Class-Examples\ToDoList\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a582c3ab8b7fd72ca0488a83b7eb346ec7c59d19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GIT REPO\ToDoList\Android-Class-Examples\ToDoList\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ad9f767a9c3456b3f7f647b9abb432aa2ccbf6d">
+        <dex dex="E:\GIT REPO\ToDoList\Android-Class-Examples\ToDoList\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4c58ca47fee8371f6a610df3c38adb55a0bb5f0a\classes.dex" />
+    </item>
+
+</items>
